@@ -35,21 +35,28 @@
     margin-top: 10px;
   }
   
-  nav ul {
-    list-style: none;
+  .navbar {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 20px;
+    gap: 10px;
   }
   
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    color: #fff;
+  .nav-button {
+    background-color: #1f6feb;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
     text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
   }
+  
+  .nav-button:hover {
+    background-color: #388bfd;
+  }
+  
   
   /* Sections */
   section {
