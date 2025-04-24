@@ -3,24 +3,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio | Ton Nom</title>
+  <title>Nahil EL BEZZARI | Élève ingénieur en informatique</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <div class="container">
-          <h1>Ton Nom</h1>
-          <p>Élève ingénieur en informatique</p>
-          <nav class="navbar">
-            <a href="#about" class="nav-button">À propos</a>
-            <a href="#projects" class="nav-button">Projets</a>
-            <a href="#skills" class="nav-button">Compétences</a>
-            <a href="#contact" class="nav-button">Contact</a>
-          </nav>
-        </div>
+    <header class="animated-gradient">
+            <nav class="navbar">
+                <a href="#projects" class="nav-button">Mes projets</a>
+                <a href="#about" class="nav-button">À propos</a>
+                <a href="#skills" class="nav-button">Mes compétences</a>
+                <a href="#contact" class="nav-button">Contactez-moi</a>
+            </nav>
+            <div id="title">
+                <h1>Nahil El Bezzari</h1>
+                <h4>Élève ingénieur en génie des systèmes d'informations</h4>
+            </div>
     </header>
   <main>
+    <section id="projects" class="container">
+        <h2>Mes projets</h2>
+        <div class="project-list">
+            <div class="project">
+                <div class="project-text">
+                  <h3>IA et Agriculture</h3>
+                  <p>Conception et implémentation d’un module combinant reconnaissance vocale et IA de recommandation afin de permettre à un agriculteur analphabète d’obtenir des recommandations de formation agricole.
+                  </p>
+                  <ul>
+                    <li>Python</li>
+                    <li>PyTorch</li>
+                    <li>Tokenization</li>
+                    <li>Vectorisation</li>
+                    <li>Data augmentation</li>
+                  </ul>
+                </div>
+                <img src="image1.jpg" alt="Image du projet"/>
+            </div>
+        </div>
+    </section>
+
     <section id="about" class="container">
       <h2>À propos de moi</h2>
       <p>
@@ -28,20 +48,8 @@
       </p>
     </section>
 
-    <section id="projects" class="container">
-      <h2>Projets</h2>
-      <div class="project-list">
-        <article class="project">
-          <h3>Application de gestion de tâches</h3>
-          <p>Une application mobile développée en Flutter pour organiser vos tâches quotidiennes.</p>
-          <a href="https://github.com/tonusername/app-gestion-taches" target="_blank">Voir le projet</a>
-        </article>
-        <!-- Ajoute d'autres projets ici -->
-      </div>
-    </section>
-
     <section id="skills" class="container">
-      <h2>Compétences</h2>
+      <h2>Mes compétences</h2>
       <ul class="skills-list">
         <li>Langages : Python, JavaScript, C++</li>
         <li>Frameworks : React, Node.js, Django</li>
@@ -51,10 +59,10 @@
     </section>
 
     <section id="contact" class="container">
-      <h2>Contact</h2>
+      <h2>Me contacter</h2>
       <p>Tu peux me contacter à l'adresse suivante : <a href="mailto:ton.email@exemple.com">ton.email@exemple.com</a></p>
       <div class="social-links">
-        <a href="https://github.com/tonusername" target="_blank">GitHub</a> |
+        <a href="https://github.com/tonusername" target="_blank">GitHub</a>
         <a href="https://www.linkedin.com/in/tonusername" target="_blank">LinkedIn</a>
       </div>
     </section>
