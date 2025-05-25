@@ -3,9 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nahil EL BEZZARI | Élève ingénieur en informatique</title>
+  <title>Nahil EL BEZZARI</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
+<script>
+  function copyEmail() {
+    const email = "nahil.ebz@gmail.com";
+    navigator.clipboard.writeText(email).then(() => {
+      alert("Adresse e-mail copiée dans le presse-papiers !");
+    });
+  }
+</script>
 <body>
     <header class="animated-gradient">
             <nav class="navbar">
@@ -91,36 +100,46 @@
     <section id="about" class="container">
       <h2>À propos de moi</h2>
       <p>
-        Je suis étudiant en école d'ingénieur en informatique, passionné par le développement web, l'intelligence artificielle et la cybersécurité. J'aime créer des solutions innovantes et apprendre de nouvelles technologies.
+        Étudiant en ingénierie à CY Tech, spécialisé en systèmes d’information, je suis particulièrement intéressé par l’apprentissage automatique, la modélisation des données, et la résolution de problèmes complexes grâce à l’intelligence artificielle.
       </p>
-    </section>
+      <p>
+        Curieux et déterminé, je cherche une contrat de professionnalisation qui me permettra de mettre mes compétences en pratique, tout en apprenant auprès de professionnels du domaine. Mon objectif est de contribuer activement au développement de solutions innovantes qui allient technologie et intelligence.
+      </p>
+      </section>
 
     <section id="skills" class="container">
       <h2>Mes compétences</h2>
-      <ul class="skills-list">
-        <li>Langages : Python, JavaScript, C++</li>
-        <li>Frameworks : React, Node.js, Django</li>
-        <li>Outils : Git, Docker, Linux</li>
-        <!-- Ajoute d'autres compétences ici -->
-      </ul>
+      <div class="skills-icons">
+      <i class="devicon-python-plain" title="Python"></i>
+      <i class="devicon-tensorflow-original" title="TensorFlow"></i>
+      <i class="devicon-numpy-plain" title="NumPy"></i>
+      <i class="devicon-pandas-plain-wordmark" title="Pandas"></i>
+      <i class="devicon-azuresqldatabase-plain" title="SQL"></i>
+      <i class="devicon-git-plain" title="Git"></i>
+    </div>
     </section>
 
     <section id="contact" class="container">
       <h2>Me contacter</h2>
-      <p>Tu peux me contacter à l'adresse suivante : <a href="mailto:ton.email@exemple.com">ton.email@exemple.com</a></p>
-      <div class="social-links">
-        <a href="https://github.com/tonusername" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/tonusername" target="_blank">LinkedIn</a>
+      <p>Vous êtes à la recherche d'un élève ingénieur passioné et motivé ?</p>
+      <p>N'hésitez pas à me contacter:</p>
+      <div class="contact-buttons">
+        <button class="cta-button email-button" onclick="copyEmail()">
+          nahil.ebz@gmail.com
+        </button>
+
+        <a href="https://www.linkedin.com/in/nahil-el-bezzari/" class="cta-button icon-button" target="_blank" title="LinkedIn">
+          <i class="devicon-linkedin-plain"></i>
+        </a>
+
+        <a href="https://github.com/Nahil-ElBezzari" class="cta-button icon-button" target="_blank" title="GitHub">
+          <i class="devicon-github-original"></i>
+        </a>
       </div>
     </section>
   </main>
-
   <footer>
-    <div class="container">
-      <p>© 2025 Ton Nom. Tous droits réservés.</p>
-    </div>
+    <p>© 2025 - Nahil EL BEZZARI</p>
   </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
